@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.head{
+    background-color: black;
+    /* background-color: rgb(247, 243, 243); */
+     height: 40px;
+
+}
+/* header */
+#header{
+    background-color: white;
+}
+
+.m{ 
+    
+    margin-left: 80px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+
+}
+a .m{
+    
+color: black;
+}
+ .p{
+    margin-left: 25px;
+    color: black;
+   
+}
+a .p{
+   
+
+    color: black;
+   
+
+}
+.text{
+    text-decoration: none;
+    
+}
+/* footer class */
+.a{
+    color: rgb(204, 198, 198);
+    font-size:14px;
+    padding: 10px;
+}
+/*  */
+.top{
+    color: rgb(204, 198, 198);
+    font-size:14px;
+    text-decoration: none;
+   
+}
+
+.b{
+    color: white;
+    margin-left: 30px;
+    text-transform:uppercase;
+    margin-top: 50px;
+    
+}
+
+#img{
+    background-image: url('../img/product-01.jpg.webp');
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+#con{
+     /* border: 1px solid gray;  */
+    height: 500px;
+    box-shadow: 3px 0px 5px 1px;
+    
+    
+    
+    
+}
+#co{
+    border: 1px solid gray;
+    height: 500px; 
+}
+#btn{
+    width: 450px; 
+    height: 47px;
+}
+#btn:hover{
+    background-color: rgb(73, 73, 211);
+}
+.j{
+    margin-left: 80px;
+}
+.k{
+    margin-left: 110px;
+}
+
+/* RECM */
+.site-title,.site-title a {
+    font-weight: 900;
+    font-family: 'Cinzel',serif;
+    line-height: 1.25;
+    text-transform: uppercase;
+  }
+  
+  .site-header .site-description {
+    font-weight: 500;
+    font-family: 'Inter',sans-serif;
+    line-height: 1;
+    text-transform: inherit;
+  }
+  .site-title .title_wrapper {
+    background: linear-gradient(56deg, #ff0000, #ffa000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .ast-builder-grid-row {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    grid-column-gap: 20px;
+    overflow-wrap: anywhere
+  }
+  

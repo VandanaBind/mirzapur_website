@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+    margin: 0;
+     padding: 0;
+     font-family: 'Roboto', sans-serif;
+}
+ .navigation {
+     height: 55px;
+     /* background: linear-gradient(45deg, #4d8fdb, #74b4fe); */
+}
+ .brand {
+     position: absolute;
+     padding-left: 20px;
+     float: left;
+     line-height: 55px;
+     text-transform: uppercase;
+     font-size: 1.4em;
+}
+ .brand a, .brand a:visited {
+     color: #ffffff;
+     text-decoration: none;
+}
+ .nav-container {
+     width: 100%;
+}
+ nav {
+
+ 
+      /* float: right;  */
+ }
+
+ nav ul {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     
+     
+}
+ nav ul li {
+      float: left; 
+     position: relative;
+     padding-left: 25px; 
+     
+/* margin-left: 80px; */
+}
+ nav ul li a,nav ul li a:visited {
+     display: block;
+      padding: 0px; 
+     margin-right: 10px;
+     line-height: 55px;
+     color: #fff;
+     /* background: #6cb1da ; */
+     text-decoration: none;
+}
+ nav ul li a{
+     background: transparent;
+     color: #FFF;
+}
+ nav ul li a:hover, nav ul li a:visited:hover {
+     /* background: rgb(230, 62, 0); */
+     color: orangered;
+}
+ .navbar-dropdown li a{
+      background: #162653; 
+    
+     /* background: #ffffff; */
+     
+}
+ nav ul li a:not(:only-child):after, nav ul li a:visited:not(:only-child):after {
+     padding-left: 4px;
+     content: ' \025BE';
+}
+ nav ul li ul li {
+     min-width: 199px;
+}
+ nav ul li ul li a {
+     padding: 15px;
+     line-height: 20px;
+}
+ .navbar-dropdown {
+     position: absolute;
+     display: none;
+     z-index: 1;
+     /* background: #fff; */
+     background: #162653;
+     box-shadow: 0 0 35px 0 rgba(0,0,0,0.25);
+}
+/* Mobile navigation */
+ .nav-mobile {
+     display: none;
+     position: absolute;
+     top: 0;
+     right: 0;
+     background: transparent;
+     height: 55px;
+     width: 80px;
+}
+ @media only screen and (max-width: 800px) {
+     .nav-mobile {
+         display: block;
+    }
+     nav {
+         width: 100%;
+         padding: 55px 0 15px;
+    }
+     nav ul {
+         display: none;
+    }
+     nav ul li {
+         float: none;
+    }
+     nav ul li a {
+         /* padding: 15px; */
+         line-height: 20px;
+         background: #262626;
+    }
+     nav ul li ul li a {
+         /* padding-left: 30px; */
+    }
+     .navbar-dropdown {
+         position: static;
+}
+ @media screen and (min-width:800px) {
+     .nav-list {
+         display: block !important;
+    }
+}
+ #navbar-toggle {
+     position: absolute;
+     left: 18px;
+     top: 15px;
+     cursor: pointer;
+     padding: 10px 35px 16px 0px;
+}
+ #navbar-toggle span, #navbar-toggle span:before, #navbar-toggle span:after {
+     cursor: pointer;
+     border-radius: 1px;
+     height: 3px;
+     width: 30px;
+     background: #ffffff;
+     position: absolute;
+     display: block;
+     content: '';
+     transition: all 300ms ease-in-out;
+}
+ #navbar-toggle span:before {
+     top: -10px;
+}
+ #navbar-toggle span:after {
+     bottom: -10px;
+}
+ #navbar-toggle.active span {
+     background-color: transparent;
+}
+ #navbar-toggle.active span:before, #navbar-toggle.active span:after {
+     top: 0;
+}
+ #navbar-toggle.active span:before {
+     transform: rotate(45deg);
+}
+ #navbar-toggle.active span:after {
+     transform: rotate(-45deg);
+}
+}
+
+/* footer class */
+.a{
+     color: rgb(204, 198, 198); 
+    
+    font-size:14px;
+    padding: 10px;
+    
+    
+    
+}
+.abcd{
+    /* color: rgb(204, 198, 198); */
+    color: white;
+    font-size:14px;
+    padding: 10px;
+   
+    
+    
+}
+/* top header class */
+.top{
+    color: rgb(204, 198, 198);
+    font-size:14px;
+    text-decoration: none;
+   
+}
+/* login baground img */
+/* #r{
+    background-image: url('../img/free-office-wallpaper-26001-26685-hd-wallpapers.jpg');
+    background-size: cover;
+    height: 500px;
+}     */
+
+
+
+
+.b{
+    color: white;
+    margin-left: 30px;
+    text-transform:uppercase;
+    margin-top: 50px;
+    
+}
+.footer{
+    background-image: url(../img/2.jpeg);
+    background-size: cover;
+    
+    
+}
+.india{
+    margin-top: 70px;
+    margin-left: 60px;
+    color: white;
+    font-size:xx-large;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+.ajm{
+    margin-left: 60px;
+    background-color: yellow;
+    color: black;
+     width: 200px;
+    border-radius: 7px;
+    font-size: small; 
+    padding-left: 7px;
+    
+    
+
+    
+
+}
+.aa{
+    margin-left:50px ;
+    color: white;
+    font-size:large;
+    font-weight:bolder;
+}
+.fo{
+    font-size: 14px;
+    
+}
+.shadow{
+    box-shadow: #fff;
+    border-radius: 10px;
+}
+
+.wel{
+    text-transform:uppercase;
+    font-weight: bolder;
+}
+.wl{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-size: large; */
+    text-align: justify;
+}
+#rounded{
+    height: 330px;
+    width: 340px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 5px 1px;
+    border-radius: 10px;
+    
+}
+.title_wrapper{
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size:30px;
+}
+.site-description{
+    font-size: smaller;
+}
+.aaa{
+    margin-left: 1px;
+    background-color:rgb(2, 2, 87) ;
+    color: white;
+    width: 240px;
+    border-radius: 7px;
+    font-size:xx-small;
+    padding-left: 5px;
+    padding: 2px 15px 2px 15px;
+
+    
+
+}
+.header{
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(2, 2, 87);
+}
+.Addmision{
+        margin-left:60px ;
+        background-color: rgb(255, 57, 0);
+        font-size:small;
+        font-weight:bolder;
+        color: white;
+        padding: 2px 8px 2px 8px;
+        margin-left: 20px;
+        border-radius: 5px;
+    
+}
+#input{
+    height: 30px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid black;
+}
+/* footer bgpic */
+#pic{
+    background-image: url(../img/slider3.jpg);
+    background-size: cover;
+}
+/*  */
+.img{
+    background-image: url(../img/comp.jpg);
+    background-size: cover;
+     width: 450px;
+     height: 250px;
+     border-radius:5%; 
+     border: 2px solid blue;
+}
+
+.img2{
+    background-image: url(../img/Inf.jpg);
+    background-size: cover;
+     width: 450px;
+     height: 250px;
+     border-radius:5%; 
+     border: 2px solid blue;
+}
+
+.img3{
+    background-image: url(../img/electrical.jpg);
+    background-size: cover;
+     width: 450px;
+     height: 250px;
+     border-radius:5%; 
+     border: 2px solid blue;
+}
+.img4{
+    background-image: url(../img/elec.jpg);
+    background-size: cover;
+     width: 450px;
+     height: 250px;
+     border-radius:5%; 
+     border: 2px solid blue;
+}
+.img4{
+    background-image: url(../img/electronics.jpg);
+    background-size: cover;
+     width: 450px;
+     height: 250px;
+     border-radius:5%; 
+     border: 2px solid blue;
+}
+.img5{
+    background-image: url(../img/appl.jpg);
+    background-size: cover;
+     width: 450px;
+     height: 250px;
+     border-radius:5%; 
+     border: 2px solid blue;
+     
+}
+
+/* about slid img */
+.slid_img{
+    background-image: url('../img/img4.jpeg');
+    background-size: cover;
+    height: 350px;
+
+}
+/* about  */
+.abo{
+    margin-top: 150px;
+    font-weight: bolder;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(0,0,0,0.0);
+   
+}
+
+.im{
+    height: 500px;
+    width: 500px;
+    border-radius: 7px;
+    box-shadow: 1px 2px 3px 0px;
+}
+/* about end */
+/* gallery */
+.imge{
+    height: 280px;
+    width: 350px;
+    border-radius: 7px;
+    box-shadow: 1px 2px 3px 0px;
+}
+
+/* department */
+.imgeg{
+    height: 380px;
+    width: 400px;
+    border-radius: 7px;
+    box-shadow: 1px 2px 3px 0px;
+}
+/*  */
+.zoom-in div img{
+    transition: 0.5s ease;
+}
+.zoom-in div{
+    overflow: hidden;
+}
+.zoom-in:hover div img{
+transform: scale(1.2);
+}
+/* gallery end */
+/* cources */
+.mycard:hover{
+    margin-top: -30px;
+    }
+    .mycard{
+        transition: 0.5s ease;
+    }
+/*  */
+/* feedback */
+.feedback{
+    color: rgb(48, 48, 252);
+    font-weight: bold;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+/* about */
+.h{
+    height:3px;
+    border:0;
+    background-color:red;
+    opacity: 1;
+    margin-left: 25px;
+  
+  }
+/*  */
+/* department */
+.hr{
+    height:3px;
+    border:0;
+    background-color:red;
+    opacity: 1;
+    margin-left: 40px;
+  
+  }
+/*  */
+
+
+ 

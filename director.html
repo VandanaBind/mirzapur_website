@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mirzapur</title>
+    <!-- cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--bootstrap css  -->
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style2.css"> 
+     <link rel="stylesheet" href="css/style.css"> 
+     <link rel="stylesheet" href="css/stylec.css">
+      <!--AOS  CSS -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <!-- AOS JS -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+   
+    <style>
+       #slider{
+          height: 400px;
+          width: 100%;
+          background-size: cover;
+          
+          
+      } 
+      .h{
+      height:3px;
+      width:50px;
+      border:0;
+      background-color:red;
+      opacity: 1;
+    
+    }
+  </style>
+  <script>
+      var img=["2.jpeg", "slider1.jpg", "slid1.jpg","slider3.jpg"];
+      var i=0;
+      function slid(){
+          var div=document.getElementById("slider");
+          div.style.backgroundImage="Url('img/"+img[i]+"')";
+          i++;
+          if(img.length==i){
+           i=0;
+          }
+          window.setTimeout("slid()",2000)
+      }
+     
+  </script>
+
+</head>
+<body onload="slid()" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+    <div class="container-fluid">
+      <div class="row" style="background-color:  #162653;;">
+        <div class="col-sm-3">
+         <a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook fs-4 mt-2" style="color: white;"></i></a>         
+         <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin fs-4 ms-2 mt-2" style="color: white;"></i></a>
+         <a href="https:twitter.com"> <i class="fa-brands fa-twitter fs-4 ms-2 mt-2" style="color: white;"></i></a>
+         <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram fs-4 ms-2 mt-2" style="color: white;"></i></a>
+          <a href="https://www.youtube.com/"> <i class="fa-brands fa-youtube fs-4 ms-2 mt-2" style="color: white;"></i></a>
+          
+        </div>
+        <div class="col-sm-4 m-1">
+        </div>
+        <div class="col-sm-1 me-5">
+          <p class="Addmision my-2 ps-3" style="width: 150px; margin-left: 100px;">2024-25 Admission</p>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-2 ms-1">
+            <div class="input-group mb-3" style=" height: 5px;">
+              <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="button-addon2" style=" width: 70px; margin-top: 5px; height: 30px; background-color: white;">
+              <button class="btn pb-4" type="button" id="button-addon2" style="  width: 70px; margin-top: 5px; height: 30px; color: white; background-color:rgb(21, 21, 99);">search</button>
+            </div>
+           </div>
+          
+          
+        </div>
+      
+<!-- head start -->
+ <div class="row bg-light">
+  <div class="col-sm-1 mt-3">
+    <!-- <img src="img/mirza-removebg-preview.png" alt="" style="height: 90px;"> -->
+    
+  </div>
+  <div class="col-sm-2 mt-3">
+    <img src="img/download__2_-removebg-preview (1).png" alt=""
+    style="height: 80px; margin-left: 30px;">
+    <!-- <span class="mt-5 fs-4 header">REC MIRZAPUR</span> <br>
+    <small class="aaa">MIRZAPUR UTTAR PRADESH INDIA</small> -->
+  </div>
+  <div class="col-sm-6"><div class="ast-site-title-wrap">
+    <span class="site-title" itemprop="name">
+
+  <p class="title_hi mt-3 fs-5 fw-bold" style="color: #162653; font-size:0.85em;margin:0; margin-left: 130px;">राजकीय इंजीनियरिंग कॉलेज,मिर्ज़ापुर</p>
+  <div class="title_wrapper fw-bold  ms-3" style="margin:-4px 0 2px;">Rajkiya Engineering College, Mirzapur</div>
+</a>
+</span>
+    <p class="site-description ms-5" itemprop="description" style="color: rgb(87, 82, 82);">
+AICTE Approved &amp; Affiliated to Dr.Abdul Kalam Technical University, Lucknow
+</p>
+</div></div>
+  <div class="col-sm-2 ms-5"><img src="img/Dr._A.P.J._Abdul_Kalam_Technical_University_logo-min.png" alt="" style="height: 70px; margin-top: 20px;">
+  <img src="img/Make_In_India-min.png" alt="" style="height: 50px; margin-top: 20px;"></div>
+ </div>
+<!-- head start -->
+    
+<!-- navbar start -->
+<div class="row sticky-top">
+  <div class="col-sm-12 p-0">
+    <section class="navigation nav-5">
+      <div class="nav-container">
+        <nav>
+          <ul>
+            
+            <li style="margin-left: 200px;">
+              <a href="index.html"><i class="fa-solid fa-house" style="color: #ffffff;"></i> Home</a>
+
+            </li>
+
+            <li>
+              <a href="About.html"><i class="fa-regular fa-address-card" style="color: #ffffff;"></i> About</a>
+
+            </li>
+            <li>
+              <a href="gallery.html"><i class="fa-solid fa-image" style="color: #ffffff;"></i> Gallery</a>
+
+            </li>
+            <li>
+              <a href="#!"><i class="fa-solid fa-book" style="color: #ffffff;"></i> Department</a>
+              <ul class="navbar-dropdown">
+                <li>
+                  <a href="Appsceince.html"> Applied Science & Humanities</a>
+                </li>
+                <li>
+                  <a href="computer.html">Computer Science & Engineering</a>
+                </li>
+                <li>
+                  <a href="IT.html">Information Technology</a>
+                </li>
+                <li>
+                  <a href="Elect.html">Electrical Engineering</a>
+                </li>
+                <li>
+                  <a href="elc.html">Electronics Engineering</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="feedback.html"><i class="fa-solid fa-comment" style="color: #ffffff;"></i> Feedback</a>
+            </li>
+
+            <li>
+              <a href="director.html"> <i class="fa-solid fa-user" style="color: #ffffff;"></i> Director</a>
+
+            </li>
+            <li>
+              <a href="contact.html"><i class="fa-solid fa-phone" style="color: #ffffff;"></i> Contact</a>
+            </li>
+            <li>
+              <a href="login.html"><i class="fa-solid fa-user" style="color: #ffffff;"></i> Faculty Login</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+  
+  </div>
+</div>
+   <!-- navbar end -->
+  
+   <div class="row slid_img">
+    <div class="col-sm-12  " style="background-color: rgb(0, 0, 0,0.6);">
+      <h2 class="text-center text-light abo">DIRECTOR MESSAGE</h2>
+  </div>
+   </div>
+ <!--  -->
+ <!--director  -->
+ <div class="row">
+    <div class="col-sm-11 mx-auto">
+        <div class="row mt-5">
+            <div class="col-sm-7 ms-4">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <img src="img/Deependra1_050723.jpg" alt="" style="width: 120px;">
+                    </div>
+                    <div class="col-sm-7">
+                        <h4 class="ms-3 feedback" style="color: orangered;">PROF. DEEPENDRA SINGH</h4>
+                        <hr class="ms-3" style="color: red; width: 310px;">
+                        <h5 class="ms-3 feedback" style="color: #162653;"> DIRECTOR</span> <h5>
+                       <h6 class="ms-3 feedback" style="color: #162653;"> RAJKIYA ENGINEERING MIRZAPUR</h6>
+                    </div>
+                    <p class="mt-2 fw-bold"> Dear Students, Alumni, Faculties, and Parents,</p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                       <p style="text-align: justify;">
+                        I am delighted to welcome you to our esteemed institution, Rajkiya Engineering College Mainpuri. As the Director, it is my honor to lead this vibrant community of learners, innovators, and achievers. <br> <br>
+
+                        At Rajkiya Engineering College Mainpuri, we believe in the transformative power of education and the immense possibilities that lie within each and every student. Our mission is to provide a holistic learning experience that combines academic excellence with practical skills, personal growth, and ethical values. We strive to nurture future engineers who are not only technically proficient but also socially responsible leaders. <br> <br>
+                        
+                        With state-of-the-art infrastructure, well-equipped laboratories, and a highly qualified faculty, we offer a conducive environment for academic exploration and research. Our innovative curriculum is designed to bridge the gap between theory and practice, preparing our students to tackle real-world challenges head-on. We encourage interdisciplinary collaborations, entrepreneurship, and industry exposure to foster a spirit of innovation and creativity among our students. <br> <br>
+                        
+                        Beyond academics, we place great emphasis on extracurricular activities and overall personality development. Our clubs, societies, and sports teams provide ample opportunities for students to pursue their passions and discover their hidden talents. We believe in nurturing well-rounded individuals who can excel not only in their chosen fields but also as responsible citizens of society. <br> <br>
+                        
+                        Whether you are a prospective student, a parent, Alumni or a member of our faculty, we look forward to your association with Rajkiya Engineering College Mainpuri. Together, let us embark on a journey of knowledge, innovation, and excellence.
+                        
+                      <br> <br>  Warm regards, <br>  <br>
+                        
+                       <span class="fw-bold"> Prof (Dr.) Deependra Singh</span> <br> 
+                        <span class="fw-bold">Director, Rajkiya Engineering College Mainpuri</span>
+                        
+                       </p>
+                    </div>
+                </div>
+            </div>
+              <!-- <div class="col-sm-1"></div> -->
+            <div class="col-sm-4 ms-5 rounded-4 bg-light" style="height: 500px;">
+                <h4 class="fw-bold">Updates from RECM</h4>
+                <div class="tabbable">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#tab1" data-toggle="tab">News/Announcements</a></li>
+                        <!--<li><a href="#tab2" data-toggle="tab">Tenders/Quotations</a></li>-->
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tab1">
+                            <marquee height = "310" direction ="up" behavior="scroll" loop="INFINITE" scrollamount="2" onmouseover="this.stop()" onmouseout="this.start()">
+                                
+                                <h6><span class="glyphicon glyphicon-asterisk"></span> <strong>Regarding Hostel Allotment for New Admission 2024-25</strong><img src="images/new.gif" alt border="0"></h6>
+                                <p> <a href="https://drive.google.com/file/d/1VWZrxnWnsd2KwUNksbSFS6xqWyn_gH_U/view?usp=sharing">Second Hostel Allotment List, Click Here </a>
+                                </p>
+                                
+                                <hr/>
+        
+                                <h6><span class="glyphicon glyphicon-asterisk"></span> <strong>Regarding Hostel Allotment for New Admission 2024-25</strong><img src="images/new.gif" alt border="0"></h6>
+                                <p> <a href="https://drive.google.com/file/d/1JiOxJKCubYw8nJjbkGT8hQS5rhEyGhju/view?usp=sharing">First Hostel Allotment List, Click Here </a>
+                                </p>
+                                
+                                <hr/>
+                                
+                                <h6><span class="glyphicon glyphicon-asterisk"></span> <strong>Regarding New Academic Session 2024-25</strong><img src="images/new.gif" alt border="0"></h6>
+                                <p> Classes for Newly Admitted Students of 2024-25 Session shall start from 2nd September 2024
+                                </p>
+                                
+                                <hr/>
+                                
+                                
+                                <h6><span class="glyphicon glyphicon-asterisk"></span> <strong>Regarding AICTE Feedback for Students and Faculties </strong><img src="images/new.gif" alt border="0"></h6>
+                                
+                                <a href="https://www.aicte-india.org/feedback/index.php">Give Feedback</a><br>
+                                <hr>
+                                <h6><span class="glyphicon glyphicon-asterisk"></span> <strong>Regarding Alumini Registration</strong></h6>
+                                
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFGA2u3e5FKIZZKVtuDaX3C_g5bVbDyMyKyQof20tyr1G6CQ/viewform?usp=sf_link">Click HERE</a><br>
+                                <hr>
+                                <h6><span class="glyphicon glyphicon-asterisk"></span> <strong>Regarding Virtual lab </strong></h6>
+                                
+                                <a href="https://drive.google.com/file/d/1jPjE_Jfo3UCtugZjq4F31fTwzgPFaxQw/view?usp=sharing">Read Notice</a>
+                                <br>                   
+                                <a href="https://drive.google.com/file/d/1JoXIELEf0AlVNoUVzsNi5UkViaB-EcSh/view?usp=sharing">List of Experiments</a>
+                                <hr>
+                              
+                              <h6><span class="glyphicon glyphicon-asterisk"></span> <strong>Regarding Anti-Ragging</strong></h6>
+                                
+                              <a href="https://drive.google.com/file/d/1WQQD71kkebNbaqc006ySzEj9AAYmvUzl/view?usp=sharing">Read Notice</a>
+                          </p>
+                          <hr>
+                            <h6><span class="glyphicon glyphicon-asterisk"></span> <strong>Regarding Health Status for Offline Classes</strong></h6>
+                               
+                              <a href="https://drive.google.com/file/d/1VY0NwMtpLFF9NOOKLPUtDOnnUSLqZWpZ/view?usp=sharing">Read Notice</a>
+                          </p>
+                          <hr>
+                                
+        <h6><span class="glyphicon glyphicon-asterisk"></span> <strong>Online e Larning Content</h6>
+                                <p>This is to inform to all Students that e content is now available on Website for Subjects of Computer Science and Electronics Engineering branch
+                                     If any student is not able to access the content please read the notice and do the needful. <br>
+                                     <a href="./elearning.html">Visit Now</a><br>
+                                     <a href="https://drive.google.com/open?id=1vM9d4icbE0FqJYBvyFmw6ly7tmUMuYIs">Read Notice</a>
+                                </p>
+                                <hr>
+                               
+                                <h6><span class="glyphicon glyphicon-asterisk"></span> <strong>Regarding Online Classess due to COVID-19</strong></h6>
+                                <a href="https://drive.google.com/open?id=1AG6Vtm5E4dKxmCEQTHc1mIqLtFkePY8m">Read Notice</a>
+                                </p>
+                                <hr>
+                                <h6><span class="glyphicon glyphicon-asterisk"></span> <strong>Regarding closure of Academic Classess due to COVID-19 </strong></h6>
+                                    <a href="https://drive.google.com/open?id=11LMvaekAYU_HIzCENCyfOhoyVFnmfasi">Read Notice</a>
+                                </p>
+                                <hr>
+                                
+                                <h6><span class="glyphicon glyphicon-asterisk"></span> <strong>Diploma Certificate for Passed out Students</strong></h6>
+                                <p>List of Students for which Diploma Certificate is avaiable at Institute 
+                                    <br><a href="https://drive.google.com/open?id=1gT5VxWhrIGubV871s7MISw9pGvZ5h8Ey">View List</a>
+                                </p>
+                                <hr>
+                               
+                                
+                                <h6><span class="glyphicon glyphicon-asterisk"></span> <strong>Quality Improvement Committee</strong></h6>
+                                <p>Committee Declaration for enhancing the Quality Education at institute level
+                                    <br><a href="https://drive.google.com/open?id=14JhpzIekVSvEIU20U4zuz7lkzsROGgvG">Know More</a>     
+                                </p>
+                                <hr>
+                                <h6><span class="glyphicon glyphicon-asterisk"></span> <strong>Regarding Samvidhan Divas</strong></h6>
+                                <p>Sequence Of Events regarding Constitution Day 2019-20
+                                    <br><a href="https://drive.google.com/open?id=1xNLdlU_fapEqDjT8Vm3vfA_bb-EmLCyp">Know More</a>    
+                                </p>
+                                <h6><span class="glyphicon glyphicon-asterisk"></span> <strong>Certificate of Appriciation </strong></h6>
+                                <p>Certificate of Appriciation is awarded to Govt. Girls Polytechnic, Amethi Uttar Pradesh for their significant contribution in "One Student One Tree" initiative at All INDIA COUNCIL FOR TECHNICAL EDUCATION on 3rd December 2019 
+                                    <br><a href="images/certificates/AICTE-OneStudentOneTree.jpg">Know More</a>
+                                    
+                                     
+                                </p>
+                                <hr/><h6><span class="glyphicon glyphicon-asterisk"></span> <strong>Regarding Placement of Passedout Students</strong></h6>
+                                <p> All Passed out Students are informed to register themselves on Sewa Yojan Portal of Government 
+                                    <br><a href="https://drive.google.com/open?id=1jqCIVHkqrzvJTMIC-CI9Bmg2An5rdtjq">Know More</a>
+                                     <br><a href="www.sewayojan.up.nic.in">Click Here for Sewa Yojan Portal</a>
+                                     
+                                </p>
+                                <hr/>
+                    
+                                
+                                <h6><strong>Availability of Diploma Certificates</strong></h6>
+                                <p>Passout Students of year from 2011 to 2017 , are here by informed that Diploma Certificates are available at institute . Kindly collect your certificates from the institute
+                                    <br><a href="https://drive.google.com/open?id=15AP5N81ClyNslTVcZ2ne06AMJlZpz_EI">List Of Students</a>
+                                </p>
+                                <hr/>
+        
+                                <h6> <strong> Regarding Equivalency of Diploma</strong></h6>
+                                <p>Madhyamic Shiksha Board Announcement regarding Intermediate Equivalency of 3 year Diploma
+                                    <br><a href="https://drive.google.com/open?id=1O85E1tdJ5lf9GC7VWoNLCz55770rqyYu">Know More</a>
+                                </p>
+                                <hr/>
+                                <h6> <strong>Janhit Gurantee Yojna</strong></h6>
+                                <p>Uttar Pradesh Janhit Gurantee Yojna
+                                    <br><a href="https://drive.google.com/open?id=1faRHQlBCRDK5We6YvkEvoNLAKIep81fJ">Know More</a>
+                                </p>
+                                <hr/>
+        
+                                <h6> <strong>Previous Year Papers</strong></h6>
+                                <p>This is to inform to all students that new section of previous year papers is added on the website.
+                                    <br><a href="./pyp.html">Visit Now !!!</a>
+                                </p>
+                                <hr/>
+        
+        
+        
+                                <h6><span class="glyphicon glyphicon-map-marker"></span> <strong>Regarding Caution Money</strong></h6>
+                                <p> This is to inform to all passout Students that , those who havn`t taken the caution money , please colect your respective caution money from the institute on any working day
+                                    <br><a href="https://drive.google.com/open?id=1iIRprzevuLlf_fhYQJEiCu2dV6AeWgWm">Read Notice</a>
+                                </p>
+                                <hr/>
+        
+                              
+        
+                                <h6><span class="glyphicon glyphicon-map-marker"></span> <strong>Marksheet for Special Back 2016 ONLY </strong></h6>
+                                <p> This is to inform to all students that TR and Marsksheet for Special Back Paper December 2016 is now available, so concern students can contact to institute and collect their respective Marksheets.
+                                </p>
+        
+                                <hr/>
+        
+                                <h6><span class="glyphicon glyphicon-map-marker"></span> <strong> Alumini Registration</strong></h6>
+                                <p>This is to inform all students that Alumini Registration is open for all passout students. Register yourself for future alumini events
+                                    <a href="alumini.html">Register Now !</a>
+                                </p>
+                                <hr/>
+                                <h6><span class="glyphicon glyphicon-map-marker"></span> <strong> AICTE MoUs for Student internship</strong></h6>
+                                <p>To facilitate internship to the students , AICTE has recently signed an MoU with internshala . Students can use internshala platform for free internship
+                                    For more information visit : <a href="https://internshala.com/">internshala.com/</a>
+                                </p>
+        
+                                <!--<h5><span class="glyphicon glyphicon glyphicon-download"></span> <strong>Download</strong></h5>-->
+                            </marquee>
+                            <a href="announcements.html">All News/Announcements</a>  |  <a href="tenders.html">All Tenders/Quotations</a>
+        
+                        </div><!-- end tab-pane -->
+        
+                        <!--<div class="tab-pane" id="tab2">
+                            <marquee height = "150" direction ="up" behavior="scroll" loop="INFINITE" scrollamount="2">
+                                <h5><span class="glyphicon glyphicon-map-marker"></span> <strong> Invitation for Quotation</strong></h5>
+                                <p><h6><strong>Release date: 24th April 2017 , Valid Upto : 10th May 2017</strong></h6></p>
+                                <p>All CS final year students needs to prepare and deliver their seminar topics till 5th May 2017</p>
+                                <h5><span class="glyphicon glyphicon glyphicon-download"></span> <strong>Download</strong></h5>
+                            </marquee>
+                            <a href="tenders.html">All Tendors/Quotations</a>
+                        </div>--><!-- end tab-pane -->
+                    </div><!-- end tab-content -->
+                </div><!-- end tabbable -->
+            </div><!-- end col-sm-6 -->
+        </div>
+        <!-- End BigCallout -->
+        
+
+
+        </div>
+    </div>
+ </div>
+ <!--  -->
+<!-- footer start -->
+ 
+<div class="row bg-dark mt-5" id="pic">
+  <div class="col-sm-12 mx-auto" style="background-color: rgba(16, 14, 51,0.9);">
+    <div class="row ">
+      <div class="col-sm-2">
+        <img src="img/download__2_-removebg-preview (1).png" alt="" class="mt-5" style="height: 160px;">
+      </div>
+        <div class="col-sm-4 mt-5 ms-5">
+        <h6 class="text-warning fw-bold mt-4 fs-3">RAJKIYA ENGINEERING <br> COLLEGE, MIRZAPUR</h6>
+        <h6 class="text-light fw-bold">Rajkiya Engineering College, Mirzapur </h6>
+         <h6  class="text-light fw-bold"> राजकीय इंजीनियरिंग कॉलेज, मिर्ज़ापुर</h6>
+         <h6 class="text-light fw-bold">Approved by AICTE</h6> 
+         <h6 class="text-light fw-bold fo" >Affiliated to AKTU Lucknow, College Code 840</h6>
+      </div>
+      <div class="col-sm-2 text-light mt-5"> 
+        <h6 class="fo mt-4 fw-bold text-warning fs-5">Departments</h6>
+        <span class="fo fw-bold">Applied Science & Humanities</span> <br>
+        <span class="fo fw-bold">Computer Science Engineering</span> <br>
+        <span class="fo fw-bold">Information Technology</span> <br>
+        <span class="fo fw-bold">Electrical Engineering</span> <br>
+        <span class="fo fw-bold">Electronics Engineering</span> <br>
+        
+      </div>
+      <div class="col-sm-3 text-light mt-5">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.251773201536!2d82.56670969999999!3d25.1271775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398fc10009b0c6f3%3A0xe55164ce440bf746!2sRajkiya%20Engineering%20College%2C%20Mirzapur!5e0!3m2!1sen!2sin!4v1735759176442!5m2!1sen!2sin" class="rounded-4" width="350" height="215" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+     </div>
+      <div class="row  my-3">
+          <div class="col-sm-4 mt-5 ms-3">
+              <h6 class=" text-warning ">Rajkiya Engineering College, Mirzapur</h6>
+              <hr class="text-warning"/>
+              <span class="text-light fo">SHEETLA MANDIR, BATHUA, REWA ROAD, Teliyaganj,<br> Mirzapur, Uttar Pradesh 231001
+              <br>Email: director.gecm@gmail.com <br>
+                Contact No: +91-9627367311 <br>
+                Women’s Helpline No: 1090</span>
+          </div>
+          <div class="col-sm-2 mt-5 ms-5">
+              <h6 class="text-warning ">Collage</h6>
+              <hr class="text-warning me-5">
+              <ul>
+                  <a href="" class="text-decoration-none"><li class="list-unstyled text-light fo me-5">About College
+                    </li></a>
+                  <a href="" class="text-decoration-none"><li class="list-unstyled text-light fo">Academic Calendar</li></a>
+                  <a href="" class="text-decoration-none"><li class="list-unstyled text-light fo"> Syllabus</li></a>
+                  <a href="" class="text-decoration-none"><li class="list-unstyled text-light fo">Contact</li></a>
+
+              </ul> 
+          </div>
+          <div class="col-sm-3 mt-5">
+              <h6 class="text-warning ">Website Policies</h6>
+              <hr class="text-warning me-5">
+              <ul>
+                  <a href="" class="text-decoration-none"><li class="list-unstyled text-light fo me-5">Disclaimers
+                    </li></a>
+                  <a href="" class="text-decoration-none"><li class="list-unstyled text-light fo">Privacy Policies</li></a>
+                  <a href="" class="text-decoration-none"><li class="list-unstyled text-light fo"> Hyperlinking Policies</li></a>
+                  <a href="" class="text-decoration-none"><li class="list-unstyled text-light fo">Copyright Policies</li></a>
+                  <a href="" class="text-decoration-none"><li class="list-unstyled text-light fo">Security Policies</li></a>
+
+              </ul>
+          </div>                           
+          <div class="col-sm-2 mt-5">                                
+               <h6 class="text-warning ">Important Links</h6>
+              <hr class="text-warning me-5">
+              <ul>
+                  <a href="https://aktu.ac.in/" class="text-decoration-none"><li class="list-unstyled text-light fo me-5">AKTU
+                    </li></a>
+                  <a href="https://up.gov.in/en" class="text-decoration-none"><li class="list-unstyled text-light fo">UP GOVT</li></a>
+                  <a href="https://swayam.gov.in/" class="text-decoration-none"><li class="list-unstyled text-light fo">Swayam</li></a>
+                  <a href="https://jansunwai.up.nic.in/" class="text-decoration-none"><li class="list-unstyled text-light fo">Jan Sunwai Portal</li></a>
+
+              </ul>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-12 text-center">
+              <img src="img/icon-pay-01.png" alt="">
+              <img src="img/icon-pay-02.png" alt="">
+              <img src="img/icon-pay-03.png" alt="">
+              <img src="img/icon-pay-05.png" alt="">
+              <img src="img/icon-pay-02.png" alt="">
+          </div>
+      </div>
+      <div class="row" style="background-color:  #051030;">
+          <div class="col-sm-12 text-center p-3">
+          <small class="abcd">Copyright ©2024-25 Rajkiya Engineering College Mirzapur, India (UP), India. All Rights Reserved | Website Developed & Maintained <i class="fa-regular fa-heart"></i> by <b style="color: white;">Vandana Bind</b></small>
+          </div>
+      </div>
+  </div>
+</div> 
+    
+
+   </div>
+    
+
+      
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- AOS Animation -->
+     <script>
+  AOS.init();
+</script>
+</body>
+</html>

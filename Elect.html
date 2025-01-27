@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mirzapur</title>
+    <!-- cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--bootstrap css  -->
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style2.css"> 
+     <link rel="stylesheet" href="css/style.css"> 
+     <link rel="stylesheet" href="css/stylec.css">
+      <!--AOS  CSS -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <!-- AOS JS -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+   
+    <style>
+       #slider{
+          height: 400px;
+          width: 100%;
+          background-size: cover;
+          
+          
+      } 
+      .h{
+      height:3px;
+      width:50px;
+      border:0;
+      background-color:red;
+      opacity: 1;
+    
+    }
+  </style>
+  <script>
+      var img=["2.jpeg", "slider1.jpg", "slid1.jpg","slider3.jpg"];
+      var i=0;
+      function slid(){
+          var div=document.getElementById("slider");
+          div.style.backgroundImage="Url('img/"+img[i]+"')";
+          i++;
+          if(img.length==i){
+           i=0;
+          }
+          window.setTimeout("slid()",2000)
+      }
+     
+  </script>
+
+</head>
+<body onload="slid()" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+    <div class="container-fluid">
+      <div class="row" style="background-color:  #162653;;">
+        <div class="col-sm-3">
+         <a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook fs-4 mt-2" style="color: white;"></i></a>         
+         <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin fs-4 ms-2 mt-2" style="color: white;"></i></a>
+         <a href="https:twitter.com"> <i class="fa-brands fa-twitter fs-4 ms-2 mt-2" style="color: white;"></i></a>
+         <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram fs-4 ms-2 mt-2" style="color: white;"></i></a>
+          <a href="https://www.youtube.com/"> <i class="fa-brands fa-youtube fs-4 ms-2 mt-2" style="color: white;"></i></a>
+          
+        </div>
+        <div class="col-sm-4 m-1">
+        </div>
+        <div class="col-sm-1 me-5">
+          <p class="Addmision my-2 ps-3" style="width: 150px; margin-left: 100px;">2024-25 Admission</p>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-2 ms-1">
+            <div class="input-group mb-3" style=" height: 5px;">
+              <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="button-addon2" style=" width: 70px; margin-top: 5px; height: 30px; background-color: white;">
+              <button class="btn pb-4" type="button" id="button-addon2" style="  width: 70px; margin-top: 5px; height: 30px; color: white; background-color:rgb(21, 21, 99);">search</button>
+            </div>
+           </div>
+          
+          
+        </div>
+      
+<!-- head start -->
+ <div class="row bg-light">
+  <div class="col-sm-1 mt-3">
+    <!-- <img src="img/mirza-removebg-preview.png" alt="" style="height: 90px;"> -->
+    
+  </div>
+  <div class="col-sm-2 mt-3">
+    <img src="img/download__2_-removebg-preview (1).png" alt=""
+    style="height: 80px; margin-left: 30px;">
+    <!-- <span class="mt-5 fs-4 header">REC MIRZAPUR</span> <br>
+    <small class="aaa">MIRZAPUR UTTAR PRADESH INDIA</small> -->
+  </div>
+  <div class="col-sm-6"><div class="ast-site-title-wrap">
+    <span class="site-title" itemprop="name">
+
+  <p class="title_hi mt-3 fs-5 fw-bold" style="color: #162653; font-size:0.85em;margin:0; margin-left: 130px;">राजकीय इंजीनियरिंग कॉलेज,मिर्ज़ापुर</p>
+  <div class="title_wrapper fw-bold  ms-3" style="margin:-4px 0 2px;">Rajkiya Engineering College, Mirzapur</div>
+</a>
+</span>
+    <p class="site-description ms-5" itemprop="description" style="color: rgb(87, 82, 82);">
+AICTE Approved &amp; Affiliated to Dr.Abdul Kalam Technical University, Lucknow
+</p>
+</div></div>
+  <div class="col-sm-2 ms-5"><img src="img/Dr._A.P.J._Abdul_Kalam_Technical_University_logo-min.png" alt="" style="height: 70px; margin-top: 20px;">
+  <img src="img/Make_In_India-min.png" alt="" style="height: 50px; margin-top: 20px;"></div>
+ </div>
+<!-- head start -->
+    
+<!-- navbar start -->
+<div class="row sticky-top">
+  <div class="col-sm-12 p-0">
+    <section class="navigation nav-5">
+      <div class="nav-container">
+        <nav>
+          <ul>
+            
+            <li style="margin-left: 200px;">
+              <a href="index.html"><i class="fa-solid fa-house" style="color: #ffffff;"></i> Home</a>
+
+            </li>
+
+            <li>
+              <a href="About.html"><i class="fa-regular fa-address-card" style="color: #ffffff;"></i> About</a>
+
+            </li>
+            <li>
+              <a href="gallery.html"><i class="fa-solid fa-image" style="color: #ffffff;"></i> Gallery</a>
+
+            </li>
+            <li>
+              <a href="#!"><i class="fa-solid fa-book" style="color: #ffffff;"></i> Department</a>
+              <ul class="navbar-dropdown">
+                <li>
+                  <a href="Appsceince.html"> Applied Science & Humanities</a>
+                </li>
+                <li>
+                  <a href="computer.html">Computer Science & Engineering</a>
+                </li>
+                <li>
+                  <a href="IT.html">Information Technology</a>
+                </li>
+                <li>
+                  <a href="Elect.html">Electrical Engineering</a>
+                </li>
+                <li>
+                  <a href="elc.html">Electronics Engineering</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="feedback.html"><i class="fa-solid fa-comment" style="color: #ffffff;"></i> Feedback</a>
+            </li>
+
+            <li>
+              <a href="director.html"> <i class="fa-solid fa-user" style="color: #ffffff;"></i> Director</a>
+
+            </li>
+            <li>
+              <a href="contact.html"><i class="fa-solid fa-phone" style="color: #ffffff;"></i> Contact</a>
+            </li>
+            <li>
+              <a href="login.html"><i class="fa-solid fa-user" style="color: #ffffff;"></i> Faculty Login</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+  
+  </div>
+</div>
+   <!-- navbar end -->
+  
+   <div class="row slid_img">
+    <div class="col-sm-12  " style="background-color: rgb(0, 0, 0,0.6);">
+      <h2 class="text-center text-light abo">DEPARTMENT OF ELECTRICAL ENGINEERING</h2>
+  </div>
+   </div>
+ <!--  -->
+<!-- <div class="row mt-3">
+    <div class="col-sm-6">
+    </div>
+        <div class="row">
+            <div class="col-sm-4 imgeg mt-5 zoom-in " style="margin-left: 100px;">
+            </div>
+            <div class="col-sm-7">
+              <h3 class="ms-3">About the Department</h3>
+            </div>
+        </div>
+</div>
+  -->
+<div class="row mt-4">
+    <div class="col-sm-5 bg-light ">
+        <h3 class=" mt-5" style="margin-left: 60px;">HOD's Desk</h3>
+        <div class="col-sm-4 imgeg my-2 zoom-in " style="margin-left: 70px;">
+            <img src="img/Director.acdc2760aa7d6e3d7f40.png" alt="" class="rounded-pill" style=" border: 1px solid gray; margin-top: 50px; height: 150px; margin-left: 120px;">
+            <small class="pt-2 fw-bold" style="color: orangered; margin-left: 110PX;">Prof. Arvind Kumar Tiwari</small>
+            <small class="fw-bold" style="margin-left: 120PX;">Professor & Head,</small> <br>
+            <small class="fw-bold" style="margin-left: 70PX;">Department of Electrical Engineering</small>
+        </div>
+    </div>
+    <div class="col-sm-7">
+        <h3 class="ms-3 fw-bold px-4" style="color: #162653;">About the Electrical Engineering Department</h3>
+        <p class="px-5" style="text-align: justify;">Electrical Engineering Department is the largest department of the Institute. It offers B.Tech. (Computer Science & Engineering), B.Tech. (Information Technology) and MCA Programmes. The Department is well equipped with high end computers, latest software and state of the art IT infrastructure. All computing resources are interconnected with high speed internet. The Campus wide Networking facility is also managed by the department. The Department has a well-qualified faculty and several well equipped laboratories catering to the needs of not only the CSE, IT and MCA students but also students from other Departments. The Present infrastructure is sufficient enough to carry out research and other academic work by UG and PG students.</p>
+        <h4 class="ms-3 fw-bold px-4" style="color: #162653;">Vision</h4>
+        <hr class="hr" style="width: 70px;">
+        <p class="px-5" style="text-align: justify;">To be the center of excellence in the field of computer science and engineering and to produce competent, ethical professionals empowered with high impact research leading to sustainable innovation and entrepreneurship inculcating moral values and societal concern.</p>
+        <h4 class="ms-3 fw-bold px-4" style="color: #162653;">Mission</h4>
+        <hr class="hr" style="width: 90px;">
+        <p class="px-5" style="text-align: justify;">
+            M1 : To provide a learning ambience to enhance problem solving skills, communication skills and leadership quality with team spirit.
+          <br>  M2 : To provide exposure for the theoretical and practical concepts, with the latest tools and technologies in area of computer science and engineering.
+         <br>   M3 : To encourage industry and research based projects / activities in the emerging area of computer science and provide a platform for the implementation of innovative ideas and entrepreneurial concept.
+         <br>   M4 : To inculcate professional behavior and strong ethical values.
+        </p>
+    </div>
+</div>
+  
+<!-- footer start -->
+ 
+<div class="row bg-dark mt-5" id="pic">
+  <div class="col-sm-12 mx-auto" style="background-color: rgba(16, 14, 51,0.9);">
+    <div class="row ">
+      <div class="col-sm-2">
+        <img src="img/download__2_-removebg-preview (1).png" alt="" class="mt-5" style="height: 160px;">
+      </div>
+        <div class="col-sm-4 mt-5 ms-5">
+        <h6 class="text-warning fw-bold mt-4 fs-3">RAJKIYA ENGINEERING <br> COLLEGE, MIRZAPUR</h6>
+        <h6 class="text-light fw-bold">Rajkiya Engineering College, Mirzapur </h6>
+         <h6  class="text-light fw-bold"> राजकीय इंजीनियरिंग कॉलेज, मिर्ज़ापुर</h6>
+         <h6 class="text-light fw-bold">Approved by AICTE</h6> 
+         <h6 class="text-light fw-bold fo" >Affiliated to AKTU Lucknow, College Code 840</h6>
+      </div>
+      <div class="col-sm-2 text-light mt-5"> 
+        <h6 class="fo mt-4 fw-bold text-warning fs-5">Departments</h6>
+        <span class="fo fw-bold">Applied Science & Humanities</span> <br>
+        <span class="fo fw-bold">Computer Science Engineering</span> <br>
+        <span class="fo fw-bold">Information Technology</span> <br>
+        <span class="fo fw-bold">Electrical Engineering</span> <br>
+        <span class="fo fw-bold">Electronics Engineering</span> <br>
+        
+      </div>
+      <div class="col-sm-3 text-light mt-5">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.251773201536!2d82.56670969999999!3d25.1271775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398fc10009b0c6f3%3A0xe55164ce440bf746!2sRajkiya%20Engineering%20College%2C%20Mirzapur!5e0!3m2!1sen!2sin!4v1735759176442!5m2!1sen!2sin" class="rounded-4" width="350" height="215" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+     </div>
+      <div class="row  my-3">
+          <div class="col-sm-4 mt-5 ms-3">
+              <h6 class=" text-warning ">Rajkiya Engineering College, Mirzapur</h6>
+              <hr class="text-warning"/>
+              <span class="text-light fo">SHEETLA MANDIR, BATHUA, REWA ROAD, Teliyaganj,<br> Mirzapur, Uttar Pradesh 231001
+              <br>Email: director.gecm@gmail.com <br>
+                Contact No: +91-9627367311 <br>
+                Women’s Helpline No: 1090</span>
+          </div>
+          <div class="col-sm-2 mt-5 ms-5">
+              <h6 class="text-warning ">Collage</h6>
+              <hr class="text-warning me-5">
+              <ul>
+                  <a href="" class="text-decoration-none"><li class="list-unstyled text-light fo me-5">About College
+                    </li></a>
+                  <a href="" class="text-decoration-none"><li class="list-unstyled text-light fo">Academic Calendar</li></a>
+                  <a href="" class="text-decoration-none"><li class="list-unstyled text-light fo"> Syllabus</li></a>
+                  <a href="" class="text-decoration-none"><li class="list-unstyled text-light fo">Contact</li></a>
+
+              </ul> 
+          </div>
+          <div class="col-sm-3 mt-5">
+              <h6 class="text-warning ">Website Policies</h6>
+              <hr class="text-warning me-5">
+              <ul>
+                  <a href="" class="text-decoration-none"><li class="list-unstyled text-light fo me-5">Disclaimers
+                    </li></a>
+                  <a href="" class="text-decoration-none"><li class="list-unstyled text-light fo">Privacy Policies</li></a>
+                  <a href="" class="text-decoration-none"><li class="list-unstyled text-light fo"> Hyperlinking Policies</li></a>
+                  <a href="" class="text-decoration-none"><li class="list-unstyled text-light fo">Copyright Policies</li></a>
+                  <a href="" class="text-decoration-none"><li class="list-unstyled text-light fo">Security Policies</li></a>
+
+              </ul>
+          </div>                           
+          <div class="col-sm-2 mt-5">                                
+               <h6 class="text-warning ">Important Links</h6>
+              <hr class="text-warning me-5">
+              <ul>
+                  <a href="https://aktu.ac.in/" class="text-decoration-none"><li class="list-unstyled text-light fo me-5">AKTU
+                    </li></a>
+                  <a href="https://up.gov.in/en" class="text-decoration-none"><li class="list-unstyled text-light fo">UP GOVT</li></a>
+                  <a href="https://swayam.gov.in/" class="text-decoration-none"><li class="list-unstyled text-light fo">Swayam</li></a>
+                  <a href="https://jansunwai.up.nic.in/" class="text-decoration-none"><li class="list-unstyled text-light fo">Jan Sunwai Portal</li></a>
+
+              </ul>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-12 text-center">
+              <img src="img/icon-pay-01.png" alt="">
+              <img src="img/icon-pay-02.png" alt="">
+              <img src="img/icon-pay-03.png" alt="">
+              <img src="img/icon-pay-05.png" alt="">
+              <img src="img/icon-pay-02.png" alt="">
+          </div>
+      </div>
+      <div class="row" style="background-color:  #051030;">
+          <div class="col-sm-12 text-center p-3">
+          <small class="abcd">Copyright ©2024-25 Rajkiya Engineering College Mirzapur, India (UP), India. All Rights Reserved | Website Developed & Maintained <i class="fa-regular fa-heart"></i> by <b style="color: white;">Vandana Bind</b></small>
+          </div>
+      </div>
+  </div>
+</div> 
+    
+
+   </div>
+    
+
+      
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- AOS Animation -->
+     <script>
+  AOS.init();
+</script>
+</body>
+</html>

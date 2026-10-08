@@ -10,7 +10,7 @@ body {
 	font-size: 14px;
 	color: #333333;
 	width: 100%;
-	background: url(../images/bg.jpg) top center no-repeat;
+	background: url(bg.jpg) top center no-repeat;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
 /*-----------------------------------------------------------------------------------*/
 .header {
 	width: 100%;
-	background: url(../images/header.jpg) top center no-repeat;
+	background: url(header.jpg) top center no-repeat;
 	border-top: solid 5px #ffb300;
 }
 .head-bg {
@@ -186,7 +186,7 @@ h1, h2, h3, h4, h5, h6 {
 /*-----------------------------------------------------------------------------------*/
 .footer {
 	width: 100%;
-	background: url(../images/footer.jpg) top center no-repeat;
+	background: url(footer.jpg) top center no-repeat;
 	padding: 25px 0px;
 	margin-top: 0px;
 }

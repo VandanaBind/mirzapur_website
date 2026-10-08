@@ -65,7 +65,7 @@ a .p{
 }
 
 #img{
-    background-image: url('../img/product-01.jpg.webp');
+    background-image: url('product-01.jpg.webp');
     background-size: cover;
     height: 800px;
     width: 100%;
